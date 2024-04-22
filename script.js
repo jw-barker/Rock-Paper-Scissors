@@ -14,3 +14,11 @@ let result = getComputerChoice(1, 3);
    else {
     console.log("Scissors")
    }
+
+   function getHumanChoice () {
+    let choice = prompt("Make your move!" , "Rock, Paper or Scissors")
+
+    console.log(choice)
+   }
+
+getHumanChoice();
